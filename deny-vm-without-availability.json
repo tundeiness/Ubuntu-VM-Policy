@@ -1,9 +1,9 @@
 {
   "properties": {
-    "displayName": "Audit Ubuntu VMs virtual network",
+    "displayName": "Deny Ubuntu VMs without availability",
     "policyType": "Custom",
     "mode": "All",
-    "description": "This policy checks if a resource is of type Microsoft.Network/virtualNetworks and if the virtualNetworkName field does not exist",
+    "description": "This policy denies the creation of VMs that do not have an Availability Set or Availability Zone.",
     "metadata": {
       "category": "Security"
     },
